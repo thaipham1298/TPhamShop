@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TphamShop.common\TphamShop.common.csproj" />
+    <ProjectReference Include="..\TPhamShop.Data\TPhamShop.Data.csproj" />
+    <ProjectReference Include="..\TphamShop.Model\TphamShop.Model.csproj" />
+    <ProjectReference Include="..\TPhamShop.Service\TPhamShop.Service.csproj" />
+  </ItemGroup>
+
+</Project>
